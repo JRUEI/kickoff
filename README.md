@@ -11,6 +11,7 @@ Notion Calender
 打卡用
 - [知識星球 - 代碼隨想錄社群](<https://wx.zsxq.com/dweb2/index/group/88511825151142>)
 - [代码随想录算法训练营43期](<https://docs.qq.com/sheet/DUFRZeVVwR2lxd3Zr?tab=BB08J2>)
+- [博客记录以及打卡格式](<https://docs.qq.com/doc/DUEdmb1JCaEtlZWFx>)
 
 面試用
 - [如何引導面試官提問](<https://wx.zsxq.com/dweb2/index/topic_detail/185412221454442>)
