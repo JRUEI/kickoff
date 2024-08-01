@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/e185a101-e965-4354-9aa7-7bd4018621e1)# 代碼隨想錄用
+# 代碼隨想錄用
 Start: 2024.07.31 Wed.
 
 ## 常用連結
