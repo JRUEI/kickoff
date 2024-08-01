@@ -1,11 +1,9 @@
-# 代碼隨想錄用
+![image](https://github.com/user-attachments/assets/e185a101-e965-4354-9aa7-7bd4018621e1)# 代碼隨想錄用
 Start: 2024.07.31 Wed.
 
 ## 常用連結
-Notion
+個人用
 - [面試準備](<https://www.notion.so/jonathanhrlin/5346339c952a416da5300240e2e5b928#7af0f7900dbf4402858391fba2cd8b23>)
-
-Notion Calender
 - [我的行事曆](<https://calendar.notion.so/>)
 
 打卡用
@@ -18,3 +16,6 @@ Notion Calender
 
 W1
 - [数组理论基础](<https://programmercarl.com/%E6%95%B0%E7%BB%84%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80.html>)
+
+## 已解決
+[VS Code串力扣](<https://blog.csdn.net/qq_45359288/article/details/124351804>)
