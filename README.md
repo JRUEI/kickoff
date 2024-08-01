@@ -17,7 +17,7 @@ Start: 2024.07.31 Wed.
 ## 進度
 W1
 - [Day1](<https://docs.qq.com/doc/DUG9UR2ZUc3BjRUdY>)
-- [数组理论基础](<https://programmercarl.com/%E6%95%B0%E7%BB%84%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80.html>)
+ - [数组理论基础](<https://programmercarl.com/%E6%95%B0%E7%BB%84%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80.html>)
 
 ## 已解決
 [VS Code串力扣](<https://blog.csdn.net/qq_45359288/article/details/124351804>)
