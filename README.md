@@ -16,12 +16,23 @@ Start: 2024.07.31 Wed.
 
 ## 參考
 Github
+
 https://github.com/yukiyuli/cracking-leetcode/tree/main
+
 博客園
+
 https://www.cnblogs.com/hailicy/collections/17930
+
+https://www.cnblogs.com/frontpen/p/archive/2024/07
+
+https://www.cnblogs.com/littlelazy/collections/1166
+
 綜合：包含代码随想录、吴师兄算法训练营以及剑指Offer
+
 https://github.com/Oycsy/Code-test
+
 心得
+
 https://www.yuque.com/chloe-jjh8d/dp62fd/nglgxvgdnf7pngvl?singleDoc#%20%E3%80%8A%E4%BB%A3%E7%A0%81%E9%9A%8F%E6%83%B3%E5%BD%95%20%E7%AE%97%E6%B3%95%E8%AE%AD%E7%BB%83%E8%90%A5%20%E4%B8%80%E5%88%B7%E6%80%BB%E7%BB%93%E3%80%8B
 
 ## 進度
