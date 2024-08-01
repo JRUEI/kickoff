@@ -35,17 +35,19 @@ https://github.com/Oycsy/Code-test
 
 https://www.yuque.com/chloe-jjh8d/dp62fd/nglgxvgdnf7pngvl?singleDoc#%20%E3%80%8A%E4%BB%A3%E7%A0%81%E9%9A%8F%E6%83%B3%E5%BD%95%20%E7%AE%97%E6%B3%95%E8%AE%AD%E7%BB%83%E8%90%A5%20%E4%B8%80%E5%88%B7%E6%80%BB%E7%BB%93%E3%80%8B
 
-## 進度（不更新在這，直接寫）
+## 其他
+
+### 進度（不更新在這，直接寫）
 W1
 - [Day1](<https://docs.qq.com/doc/DUG9UR2ZUc3BjRUdY>)
 - [数组理论基础](<https://programmercarl.com/%E6%95%B0%E7%BB%84%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80.html>)
 
-## 已解決
+### 已解決
 [VS Code串力扣](<https://blog.csdn.net/qq_45359288/article/details/124351804>)
 
 ---
 # 筆記
-## 力扣
+### 力扣
 
 快捷鍵
 
@@ -55,7 +57,7 @@ W1
 
 `ctrl` + `enter`：提交
 
-## 刷題建議
+### 刷題建議
 
 A. 時間充裕
 ```markdown
