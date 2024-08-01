@@ -17,5 +17,4 @@ Notion Calender
 - [如何引導面試官提問](<https://wx.zsxq.com/dweb2/index/topic_detail/185412221454442>)
 
 W1
-
-－[数组理论基础](<https://programmercarl.com/%E6%95%B0%E7%BB%84%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80.html>)
+- [数组理论基础](<https://programmercarl.com/%E6%95%B0%E7%BB%84%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80.html>)
