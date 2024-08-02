@@ -50,7 +50,10 @@
 #### 一刷（完成）
 - 過濾、減半：binary search是利用input array已被sorted過的特性，每進行一次while迴圈，即過濾掉該次區間一半的elements
 - 效率高（time complexity）：binary search為`O(logN)`> linear search為`O(logN)`
-- 習慣養成：習慣單獨寫function而非直接在public操作
+- 習慣養成：習慣單獨寫function放private，而非直接在public操作
+  ```*.md
+  這樣的設計提高了程式碼的可讀性和維護性，並且保持了良好的封裝性：數據處理的具體實現細節封裝在類內部，使得外部調用更簡潔、更安全。
+  ```
 - index shifting：建立index shifting的概念，畢竟是面對array
   ```*.md
   利用 `mid` 的 index 作單位為 1 的 shifting，即可獲得新的 `left` 或 `right`
