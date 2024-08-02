@@ -120,11 +120,43 @@
 關鍵概念：
 - 雙指針法與非遞減順序的運用在對有序數組進行變換時保持高效性和有序性。
 
+## Code
+
+```cpp
+class Solution {
+private:
+    // 私有函數執行主要的計算邏輯
+    vector<int> computeSortedSquares(vector<int>& nums) {
+        int n = nums.size(); // 獲取數組的大小
+        vector<int> result(n, 0); // 初始化結果數組，大小與原數組相同，元素初值為0
+        int k = n - 1; // 設置指針k，從結果數組的最後一個index開始
+
+        for (int i = 0, j = n - 1; i <= j; ) { // 雙指針法，i從頭，j從尾，向中間遍歷
+            if (pow(nums[i], 2) > pow(nums[j], 2)) { // 比較兩個指針指向的數字的平方大小
+                result[k--] = pow(nums[i], 2); // 如果左邊的數字平方較大，將其加入結果數組並將k向左移
+                i++; // 移動左邊的指針向右
+            }
+            else {
+                result[k--] = pow(nums[j], 2); // 如果右邊的數字平方較大或相等，將其加入結果數組並將k向左移
+                j--; // 移動右邊的指針向左
+            }
+        }
+        return result; // 返回已排序的平方數組
+    }
+
+public:
+    // 公有函數提供外部調用接口
+    vector<int> sortedSquares(vector<int>& nums) {
+        return computeSortedSquares(nums); // 調用私有函數處理並返回結果
+    }
+};
+```
+
 ## Note
 
 #### [文章講解 - 代碼隨想錄](<https://programmercarl.com/0977.%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E7%9A%84%E5%B9%B3%E6%96%B9.html>)
 
-![一圖流](https://code-thinking.cdn.bcebos.com/gifs/977.%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E7%9A%84%E5%B9%B3%E6%96%B9.gif)
+![img](https://code-thinking.cdn.bcebos.com/gifs/977.%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E7%9A%84%E5%B9%B3%E6%96%B9.gif)
 
 #### [每日精華（未完成）](<https://ppt.cc/fK5IVx>)
 
@@ -155,5 +187,17 @@
       ```*.md
       以0為中心，負數與正數都是有序的排序，而新數組中各元素的大小排序由指針歷遍數組時已決定。
       ```
+4. **for迴圈的巧思**
 
+    1. 初始化部分：
+
+        int i = 0, j = n - 1：這裡初始化兩個變量 i 和 j。i 被初始化為 0，即數組的第一個元素的索引；j 被初始化為 n - 1，即數組的最後一個元素的索引。
+   
+    2. 條件部分：
+
+        i <= j：這是循環繼續執行的條件。當 i 小於或等於 j 時，循環體將被執行。這意味著循環將繼續，只要 i 指針還沒有超過 j 指針。
+
+    3. 增量部分：
+
+        留空（即省略了）：在這個 for 循環中，增量部分被故意省略，這意味著循環中沒有自動的索引增加或減少。增量的操作將在循環的主體中根據條件手動完成。
 
