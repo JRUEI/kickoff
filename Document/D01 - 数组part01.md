@@ -156,7 +156,9 @@ public:
 
 #### [文章講解 - 代碼隨想錄](<https://programmercarl.com/0977.%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E7%9A%84%E5%B9%B3%E6%96%B9.html>)
 
-![img](https://code-thinking.cdn.bcebos.com/gifs/977.%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E7%9A%84%E5%B9%B3%E6%96%B9.gif)
+圖片是動圖，點開看演示
+
+![img.gif](https://code-thinking.cdn.bcebos.com/gifs/977.%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E7%9A%84%E5%B9%B3%E6%96%B9.gif)
 
 #### [每日精華（未完成）](<https://ppt.cc/fK5IVx>)
 
