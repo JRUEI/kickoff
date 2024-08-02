@@ -50,18 +50,16 @@
 #### 一刷（完成）
 - 過濾、減半：binary search是利用input array已被sorted過的特性，每進行一次while迴圈，即過濾掉該次區間一半的elements
 - 效率高（time complexity）：binary search為`O(logN)`> linear search為`O(logN)`
+- 習慣養成：習慣單獨寫function而非直接在public操作
+- index shifting：建立index shifting的概念，畢竟是面對array
+  ```*.md
+  利用 `mid` 的 index 作單位為 1 的 shifting，即可獲得新的 `left` 或 `right`
+  ```
+- 避免overflow：小a、大b兩數加權平均採用`a+(b-a)/2`而非`(a+b)/2`以避免overflow
 
-- 其他：
-  - 寫function：習慣單獨寫function而非直接在public操作
-  - index shifting：建立index shifting的概念，畢竟是面對array
-    ```*.md
-    利用 `mid` 的 index 作單位為 1 的 shifting，即可獲得新的 `left` 或 `right`
-    ```
-  - 加權平均的習慣：小a、大b兩數加權平均採用`a+(b-a)/2`而非`(a+b)/2`以避免overflow
-
-    ```*.md
-    當 `left` 和 `right` 都接近整數類型的最大值時（對於32位整數來說是 2147483647），left + right 會超過32位整數的範圍，導致溢出。
-    ```
+  ```*.md
+  當 `left` 和 `right` 都接近整數類型的最大值時（對於32位整數來說是 2147483647），left + right 會超過32位整數的範圍，導致溢出。
+  ```
 #### 二刷（未完成）
 - 邊界條件：???
 
