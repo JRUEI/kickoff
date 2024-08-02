@@ -39,7 +39,9 @@
 - 開區間（左開右開）
 
 ## 紀錄與思考
-#### [每日精華（未完成）](<https://thinfi.com/0gd8d>)
+#### [代碼隨想錄](<https://programmercarl.com/0704.%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE.html#%E7%AE%97%E6%B3%95%E5%85%AC%E5%BC%80%E8%AF%BE>)
+
+#### [每日精華（未完成）](<https://ppt.cc/f6K31x>)
 
 #### [B站視頻（完成）](<https://www.bilibili.com/video/BV1fA4y1o715/>)
 - `while(left (X) right)`，到底`(X)`要是`<`還是`<=`，要由你一開始定義左閉右閉還是左閉右開有關聯
