@@ -1,5 +1,5 @@
 # Day 01 - 数组part01
-2024.07.31 (Wed.)
+2024.07.31 Wed.
 
 ## Quest
 #### 1. 二分查找 - Binary Search
