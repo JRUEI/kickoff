@@ -76,6 +76,30 @@
 
 關鍵概念：`fastIndex` 遍歷每個元素，而 `slowIndex` 則只在遇到不等於 `val` 的元素時才增加，從而在原地完成元素的替換。
 
+## Code
+
+```cpp
+class Solution {
+private:
+    // remove element
+    int removeElementInternal(vector<int>& nums, int val) {
+        int slowIndex = 0;
+        for (int fastIndex = 0; fastIndex < nums.size(); fastIndex++) {
+            if (nums[fastIndex] != val) {
+                nums[slowIndex++] = nums[fastIndex];
+            }
+        }
+        return slowIndex;
+    }
+
+public:
+    // call function
+    int removeElement(vector<int>& nums, int val) {
+        return removeElementInternal(nums, val);
+    }
+};
+```
+
 ## Note
 
 #### [文章講解 - 代碼隨想錄](<https://programmercarl.com/0027.%E7%A7%BB%E9%99%A4%E5%85%83%E7%B4%A0.html>)
