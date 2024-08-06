@@ -76,9 +76,9 @@ public:
 ## Note
 #### [文章講解 - 代碼隨想錄](<https://programmercarl.com/0704.%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE.html#%E7%AE%97%E6%B3%95%E5%85%AC%E5%BC%80%E8%AF%BE>)
 
-#### [每日精華（未完成）](<https://ppt.cc/f6K31x>)
+#### （未完成）[每日精華](<https://ppt.cc/f6K31x>)
 
-#### [B站視頻（完成）](<https://www.bilibili.com/video/BV1fA4y1o715/>)
+#### （完成）[B站視頻](<https://www.bilibili.com/video/BV1fA4y1o715/>)
 - `while(left (X) right)`，到底`(X)`要是`<`還是`<=`，要由你一開始定義左閉右閉還是左閉右開有關聯
 - 承上，新的邊界一樣的思路去處理
 
@@ -139,9 +139,9 @@ public:
 
 #### [文章講解 - 代碼隨想錄](<https://programmercarl.com/0027.%E7%A7%BB%E9%99%A4%E5%85%83%E7%B4%A0.html>)
 
-#### [每日精華（未完成）](<https://ppt.cc/fbAgNx>)
+#### （未完成）[每日精華](<https://ppt.cc/fbAgNx>)
 
-#### [B站視頻（未完成）](<>)
+#### （未完成）[B站視頻](<>)
 
 #### 一刷（完成）
 1. 初始化指針：
@@ -219,9 +219,9 @@ public:
 
 ![img.gif](https://code-thinking.cdn.bcebos.com/gifs/977.%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E7%9A%84%E5%B9%B3%E6%96%B9.gif)
 
-#### [每日精華（未完成）](<https://ppt.cc/fK5IVx>)
+#### （未完成）[每日精華](<https://ppt.cc/fK5IVx>)
 
-#### [B站視頻（未完成）](<>)
+#### （未完成）[B站視頻](<>)
 
 #### 一刷（完成）
 
